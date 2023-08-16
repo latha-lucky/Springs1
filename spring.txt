@@ -1,0 +1,44 @@
+SPRINGS-BESM41(33-36 and 37)
+Announcement
+Akshata Kodabagi
+•
+9:49 AM
+Dependencies
+
+018_pom.txt
+Text
+Class comments
+
+   <properties>
+        <springframework.version>4.3.6.RELEASE</springframework.version>
+    </properties>
+ 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.2</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+018_pom.txt
+Displaying 018_pom.txt.
